@@ -1,0 +1,75 @@
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table cells */
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style for the table header cells */
+  th {
+    background-color: #dddddd;
+    font-weight: bold;
+  }
+  
+  /* Style for the "Update" and "Delete" links */
+  a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  /* Style for the error message */
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+h2{
+  text-align: center;
+}  
+
+button{
+  display: block;
+  margin: 0 auto;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.main-button{
+  position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #0d0d0d;
+	border: none;
+	color: #fff;
+	padding: 12px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+

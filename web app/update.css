@@ -1,0 +1,86 @@
+/* Body Styles */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* H2 Styles */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Form Styles */
+form {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Label Styles */
+.label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Input Styles */
+input[type="text"] {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+  background-color: #333333;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #4d4d4d;
+}
+
+/* Hidden Input Styles */
+input[type="hidden"] {
+  display: none;
+}
+
+/* Error Message Styles */
+.error {
+  color: #cc0000;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+h2{
+  text-align: center;
+}

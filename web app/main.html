@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KDD Management System</title>
+	<link rel="stylesheet" href="login.css">
+	<style>
+body {
+	background-color: #151515;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 1vh;
+}
+
+button {
+	background-color: #0d0d0d;
+	border: none;
+	color: rgb(255, 241, 241);
+	padding: 12px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #a45816;
+}
+
+.logout-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #0d0d0d;
+	border: none;
+	color: #fff;
+	padding: 12px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+	</style>
+</head>
+<body>
+	<form method="post" action="productList.php">
+		<button type="submit">Product List Site</button>
+	</form>
+
+	<form method="post" action="productSearch.php">
+		<button type="submit">Product Search Site</button>
+	</form>
+	<a class="logout-btn" href="adminlogin.php">Logout</a>
+	</form>
+</body>
+</html>

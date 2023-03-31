@@ -1,0 +1,63 @@
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    color: #006699;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the secondary heading */
+  h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-top: 40px;
+  }
+  
+  /* Style the label for the input fields */
+  label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #006699;
+  }
+  
+  /* Style the input fields */
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  /* Style the buttons */
+  button[type="submit"], button[type="reset"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 1em;
+    background-color: #006699;
+    color: #fff;
+  }
+  
+  button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #003d4d;
+  }
+  
+  /* Style the error messages */
+  .error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
